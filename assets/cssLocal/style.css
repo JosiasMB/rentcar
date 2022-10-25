@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+}
+
+/* Container style */
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* AutoShop img style */
+.brandImg {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 30%;
+}
+
+/* Login container style */
+.loginContainer {
+  flex: 1;
+  background-color: white;
+  height: 100vh;
+}
+/* inicie seccion con su cuenta */
+.loginText {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-size: 30px;
+  color: rgb(13, 13, 13);
+  margin-top: 10%;
+  font-weight: bold;
+}
+/* Estilo del formulario login */
+form {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+/* Text box */
+input {
+  width: 90%;
+  padding: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  display: block;
+  border-style: solid;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+/* Boton acceder */
+#boton {
+  cursor: pointer;
+  outline: none;
+  width: 60%;
+  padding: 10px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 25px;
+  color: white;
+  background: rgb(10, 10, 10);
+  border: none;
+  border-radius: 3px;
+}
+#boton:hover {
+  background: rgb(248, 252, 248);
+  color: black;
+  border-style: solid;
+  border-width: 1px;
+}
+
+button:active {
+  transform: translate(0, 0.3rem);
+  box-shadow: none;
+}
+/* Olvidaste tu contraseña text */
+
+a {
+  text-align: left;
+  margin: 30px;
+  display: block;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+/* Img side container style */
+.containerImg {
+  flex-grow: 2;
+  height: 100vh;
+  background: url("../img/frontJ.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}

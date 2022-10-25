@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Login</title>
+    <link rel="stylesheet" href="assets/cssLocal/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="https://www.pngmart.com/files/22/Car-Logo-PNG-Transparent.png"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="loginContainer">
+        <img src="assets/img/Auto_Shop_logo_black.png" class="brandImg" />
+        <h1 class="loginText">Inicie sesión con su cuenta</h1>
+        <span>
+          <form action="assets/app/validar.php" method="POST">
+            <input
+              type="email"
+              placeholder="Nombre de Usuario"
+              name="usuario"
+              aria-describedby="emailHelp"
+            />
+            <input type="password" placeholder="Contraseña" name="contrasena" />
+
+            <a href="registrarse.php">Crear Cuenta</a>
+            <button type="submit" class="btn btn-primary" id="boton">
+              Acceder
+            </button>
+          </form>
+        </span>
+      </div>
+      <div class="containerImg"></div>
+    </div>
+  </body>
+</html>
